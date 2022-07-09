@@ -1,2 +1,2 @@
-# Chess
-Chess program made with c++ SDL
+# Chess SDL Project
+

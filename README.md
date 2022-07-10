@@ -61,3 +61,11 @@ At the right side there are several colourfull or colourless (grey) buttons.<br>
   `4. Put the following dlls int the main direcotry: SDL2.dll, SDL_image.dll, libpng16-16.dll` <br>
   `5. Open a terminal in the main library and copy this command and run a.exe:`<br> 
   `g++ -Isrc/include -Lsrc/lib *.cpp -lSDL2main -lSDL2 -lSDL2_image -Wall -Wextra`
+
+# For further development
+
+* Making more game modes:<br>
+  * Player vs AI <br> 
+  * AI vs AI <br>
+  * 4 player game mode
+* King castle movement

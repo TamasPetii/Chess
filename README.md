@@ -51,4 +51,13 @@ At the right side there are several colourfull or colourless (grey) buttons.<br>
 ![kép](https://user-images.githubusercontent.com/60004480/178144025-b5c1bb8f-e2ec-456a-858c-75dc9935bc94.png)
 
 
-# How to compile and run the program (On WINDOWS)
+# How to compile and run the program
+
+- From Terminal / Visual Studio Code <br>
+  `0. The .cpp, .h, .png files are already int the main directory | SDL pack is already downloaded` <br>
+  `1. Create a "src" directory in the main directory` <br>
+  `2. Create a "include" directory in the src directory, and put the SDL header files there` <br>
+  `3. Create a "lib" directory in the src directory, and put the following librarys there: SDL2.lib, SDLmain.lib, SDL_image.lib` <br>
+  `4. Put the following dlls int the main direcotry: SDL2.dll, SDL_image.dll, libpng16-16.dll` <br>
+  `5. Open a terminal in the main library and copy this command and run a.exe:`<br> 
+  `g++ -Isrc/include -Lsrc/lib *.cpp -lSDL2main -lSDL2 -lSDL2_image -Wall -Wextra`

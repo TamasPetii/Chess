@@ -43,6 +43,7 @@ At the right side there are several colourfull or colourless (grey) buttons.<br>
 
 # Featues
 
+- There is no memory leak according to ***CrtDumpMemoryLeaks()***
 - Board is represented as a one dimensional vector
 - You can save the game to a file
 - You can go back and go forward at the game

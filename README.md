@@ -64,12 +64,12 @@ At the right side there are several colourfull or colourless (grey) buttons.<br>
 2. Download SDL2_image pack: https://www.libsdl.org/projects/SDL_image/release/SDL2_image-devel-2.0.5-VC.zip
 
 # Setup Visual Studio Code / Terminal Compile
-`0. The .cpp, .h, .png files are already int the main directory | SDL pack is already downloaded` <br>
-`1. Create a "src" directory in the main directory` <br>
-`2. Create a "include" directory in the src directory, and put the SDL header files there` <br>
-`3. Create a "lib" directory in the src directory, and put the following librarys there: SDL2.lib, SDLmain.lib, SDL_image.lib` <br>
-`4. Put the following dlls int the main direcotry: SDL2.dll, SDL_image.dll, libpng16-16.dll` <br>
-`5. Open a terminal in the main library and copy this command and run a.exe:`<br> 
+0. `The .cpp, .h, .png files are already int the main directory | SDL pack is already downloaded` <br>
+1. `Create a "src" directory in the main directory` <br>
+2. `Create a "include" directory in the src directory, and put the SDL header files there` <br>
+3. `Create a "lib" directory in the src directory, and put the following librarys there: SDL2.lib, SDLmain.lib, SDL_image.lib` <br>
+4. `Put the following dlls int the main direcotry: SDL2.dll, SDL_image.dll, libpng16-16.dll` <br>
+5. `Open a terminal in the main library and copy this command and run a.exe:`<br> 
 `g++ -Isrc/include -Lsrc/lib *.cpp -lSDL2main -lSDL2 -lSDL2_image -Wall -Wextra`
 
 # Setup Visual Studio 2022 
